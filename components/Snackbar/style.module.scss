@@ -39,6 +39,10 @@
     pointer-events: all;
     user-select: all;
   }
+
+  @media (max-width: 440px) {
+    width: 290px;
+  }
 }
 
 .closeBtn {
