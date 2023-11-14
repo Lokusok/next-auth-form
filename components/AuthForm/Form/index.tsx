@@ -67,7 +67,7 @@ export default function Form() {
       </form>
 
       <ErrorNotifier
-        text={'Ошибка при входе'}
+        text={'Ошибка при входе Ошибка при входе Ошибка при входе'}
         isShowing={IsShowErrorNotifier}
         setIsShowing={setIsShowErrorNotifier}
       />

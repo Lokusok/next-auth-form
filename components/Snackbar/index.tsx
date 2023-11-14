@@ -63,7 +63,7 @@ export default function Snackbar({
       {variant == SnackbarVariantsEnum.WARNING && <TiWarning size={20} />}
       {variant == SnackbarVariantsEnum.INFO && <FaCircleInfo size={20} />}
 
-      <span className={style.info}>{text}</span>
+      <span className={style.description}>{text}</span>
 
       <button
         className={style.closeBtn}

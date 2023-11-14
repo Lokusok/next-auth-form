@@ -1,6 +1,7 @@
 .wrapper {
   width: 350px;
   padding: 22.5px 14px;
+  padding-right: 30px;
   color: #fff;
   display: flex;
   align-items: center;
@@ -64,4 +65,8 @@
   &:active {
     opacity: 0.4;
   }
+}
+
+.description {
+  word-break: break-all;
 }
