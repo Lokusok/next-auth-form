@@ -1,0 +1,39 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.labelText {
+  font-size: 12px;
+  color: var(--form-primary-color);
+}
+
+.inputOuter {
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid var(--form-primary-color);
+  border-radius: 8px;
+  padding: 13px 10px;
+  font-weight: 700;
+
+  &::placeholder {
+    color: var(--form-primary-color);
+  }
+
+  &.paddingLeft {
+    padding-left: 35px;
+  }
+}
+
+.icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-47%);
+  pointer-events: none;
+  user-select: none;
+}

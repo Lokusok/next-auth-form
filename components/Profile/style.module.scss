@@ -1,0 +1,31 @@
+.profile {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  padding: 50px 20px;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.important {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.points {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}

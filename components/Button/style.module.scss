@@ -1,0 +1,22 @@
+.button {
+  border: none;
+  appearance: none;
+
+  background: #2a08f8;
+  border-radius: 8px;
+  padding: 10px 0;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  transition: opacity ease 0.2s;
+
+  &:hover {
+    opacity: 0.75;
+  }
+
+  &:active {
+    opacity: 0.4;
+  }
+}

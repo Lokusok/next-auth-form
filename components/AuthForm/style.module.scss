@@ -1,0 +1,25 @@
+.wrapper {
+  max-width: 420px;
+  width: 100%;
+  margin: 25px auto;
+  padding: 89px 32px 49px 32px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 8px;
+
+  @media (max-width: 440px) {
+    width: auto;
+    margin: 15px;
+  }
+}
+
+.header {
+  margin-bottom: 56px;
+}
+
+.socials {
+  margin-bottom: 24px;
+}
+
+.separator {
+  margin-bottom: 52px;
+}
