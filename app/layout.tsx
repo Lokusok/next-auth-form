@@ -19,7 +19,7 @@ type Props = {
 
 export default function RootLayout({ children }: Props) {
   return (
-    <html lang="en">
+    <html lang="ru">
       <body className={inter.className}>
         <div id="root">
           <Providers>{children}</Providers>
