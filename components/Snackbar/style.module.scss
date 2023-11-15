@@ -38,7 +38,7 @@
   &.active {
     opacity: 1;
     pointer-events: all;
-    user-select: all;
+    user-select: auto;
   }
 
   @media (max-width: 440px) {
